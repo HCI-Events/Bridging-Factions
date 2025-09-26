@@ -21,6 +21,22 @@ h2 {
   color: #3e4c59;
   margin-top: 2em;
 }
+.event-image img {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(60, 60, 60, 0.08);
+  object-fit: cover;
+  background: #dcdcdc;
+}
+.caption {
+  text-align: left;
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 28px;
+}
 .info {
   margin-bottom: 2em;
   background: #e3f2fd;
